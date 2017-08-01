@@ -6,4 +6,6 @@ Store owners:
 -Sara Wall
 -Zack Clark
 -Chad Keller
--Michael Prechter 
+-Michael Prechter
+
+-- I edited this
