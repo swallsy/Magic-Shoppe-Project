@@ -20,10 +20,10 @@ ReactDOM.render (
   <BrowserRouter>
     <BaseLayout>
       <Switch>
-        <Route path="/" component={MainPage} />
         <Route path="/product" component={ProductPage} />
         <Route path="/cart" component={ShoppingCart} />
         <Route path="/receipt" component={Receipt} />
+				<Route path="/" component={MainPage} />
       </Switch>
     </BaseLayout>
   </BrowserRouter>,
