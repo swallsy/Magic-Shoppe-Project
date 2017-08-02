@@ -1,4 +1,8 @@
-.mainContent {
+body {
+  background-color: AntiqueWhite;
+}
+
+.productContainer {
   background-color: LightGray;
   border: 1px solid Blue;
   margin-left: auto;
@@ -29,10 +33,21 @@
 .productTitle {
   font-size: 20px;
   font-weight: bold;
+  text-align: center;
 }
 
-.productDescription {
+.productDescriptionPreview {
   text-align: center;
+}
+
+.revsDescContainer {
+  background-color: LightGray;
+  border: 1px solid Blue;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  height: 25vw;
 }
 
 
