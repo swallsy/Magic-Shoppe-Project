@@ -8,8 +8,12 @@ class ProductPage extends Component {
     return (
       <div className="mainContent">
         <div className="imageAndDescContainer">
-        <img src={image} className="productImage" /></div>
-        <div className="productDescription">product description</div>
+        <img src={image} className="productImage" />
+        <div className="productDescriptionGroup">
+        <span className="productTitle">Product Description Title</span>
+        <span className="productDescription">Product Description</span>
+        </div>
+        </div>
         </div>
     )
   }

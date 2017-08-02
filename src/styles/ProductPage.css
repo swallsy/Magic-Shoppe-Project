@@ -10,6 +10,7 @@
 .imageAndDescContainer {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
 }
 
 .productImage {
@@ -18,3 +19,25 @@
   width: 35%;
   height: 35%;
 }
+
+.productDescriptionGroup {
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+}
+
+.productTitle {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.productDescription {
+  text-align: center;
+}
+
+
+
+
+
+
+/**** intentional whitespace ****/
