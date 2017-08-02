@@ -1,0 +1,20 @@
+.mainContent {
+  background-color: LightGray;
+  border: 1px solid Blue;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 25vw;
+}
+
+.imageAndDescContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.productImage {
+  border: 1px solid Gray;
+  margin-top: 35px;
+  width: 35%;
+  height: 35%;
+}
