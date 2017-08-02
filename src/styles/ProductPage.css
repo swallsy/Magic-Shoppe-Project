@@ -1,6 +1,11 @@
-.mainContent {
+body {
+  background-color: AntiqueWhite;
+}
+
+.productContainer {
   background-color: LightGray;
   border: 1px solid Blue;
+  border-radius: 10px;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
@@ -29,13 +34,32 @@
 .productTitle {
   font-size: 20px;
   font-weight: bold;
-}
-
-.productDescription {
   text-align: center;
 }
 
+.productDescriptionPreview {
+  text-align: center;
+}
 
+.revsDescContainer {
+  background-color: LightGray;
+  border: 1px solid Blue;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  height: 25vw;
+}
+
+.nav-tabs {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.tab-content {
+  margin-left: 15px;
+}
 
 
 
