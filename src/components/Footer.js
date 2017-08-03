@@ -5,7 +5,7 @@ export default class Footer extends Component {
 
   render () {
     return (
-      <div className="footer">Ye Olde Magic Shoppe</div>
+      <div className="footer">Ye Olde Magic Shoppe | 2017</div>
     )
   }
 }

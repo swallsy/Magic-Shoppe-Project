@@ -94,7 +94,6 @@ h1 span {
   object-fit: cover;
   width: 100%;
   height: 250px;
-  margin-bottom: 5%;
   position: relative;
 }
 
@@ -120,9 +119,11 @@ h1 span {
   border: none;
   bottom: 20px;
   position: absolute;
+  color: white;
 }
 
 .view-item:hover {
   background-color: #7F9301;
   border: none;
+  color: white;
 }

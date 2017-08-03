@@ -24,7 +24,7 @@ import "../styles/MainPage.css";
                       <h4 className="card-title item-name">{product.name}</h4><span>$</span><span className="price">{product.price}</span>
                       <br/>
                       <p className="card-text description">{product.description}</p>
-                      <a href="#" className="btn btn-primary view-item">view item</a>
+                      <a href="#" className="btn view-item">view item</a>
                     </div>
                   </div>
               </div>

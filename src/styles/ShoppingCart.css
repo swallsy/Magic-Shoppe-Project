@@ -1,0 +1,57 @@
+.photo {
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+  position: relative;
+}
+
+
+.item-row {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-bottom: black solid 1px;
+}
+
+.total {
+  float: right;
+}
+
+
+.right-info {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  margin-top: 20px;
+  top: 20px;
+  text-align: right;
+}
+
+.remove-item {
+  color: black;
+  padding-right: 0;
+  text-decoration: underline;
+}
+
+.remove-item:hover {
+  color: #7F9301;
+  text-decoration: underline;
+}
+
+.left-info {
+  width: 70%;
+}
+
+
+.buy-items {
+  background-color: black;
+  border: none;
+  bottom: 20px;
+  position: absolute;
+  color: white;
+}
+
+.buy-items:hover {
+  background-color: #7F9301;
+  border: none;
+  color: white;
+}

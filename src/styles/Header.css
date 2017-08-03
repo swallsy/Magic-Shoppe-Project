@@ -12,7 +12,9 @@
 
 .navbar-nav .nav-link {
   font-weight: bold;
+  text-transform: uppercase;
   color: black;
+  margin-bottom: 15px;
 }
 
 .navbar-brand {
@@ -21,7 +23,6 @@ height: 50px;
 width: 50px;
 border-radius: 50%;
 margin-top: 5%;
-bottom: 0;
 }
 
 
