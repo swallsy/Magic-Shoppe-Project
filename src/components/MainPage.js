@@ -26,8 +26,7 @@ import {NavLink} from 'react-router-dom';
                       <h4 className="card-title item-name">{product.name}</h4><span>$</span><span className="price">{product.price}</span>
                       <br/>
                       <p className="card-text description">{product.description}</p>
-											<NavLink activeClassName="selected" className="navlink" to={`product/${product.id}`}>REAL CLICK HERE</NavLink>
-                      <a href="#" className="btn view-item">view item</a>
+											<NavLink activeClassName="selected" className="btn view-item" to={`product/${product.id}`}>view item</NavLink>
                     </div>
                   </div>
               </div>
