@@ -7,8 +7,8 @@ import {NavLink} from 'react-router-dom';
 class NavBar extends Component {
   render() {
     return (
-			<div>
-	      <nav className="row">
+			<div className= 'row'>
+	      <nav className= 'row'>
 	        <NavLink activeClassName="selected" className="nav-link" exact to="/">
 	          Home
 	        </NavLink>
@@ -16,7 +16,7 @@ class NavBar extends Component {
 	          Product
 	        </NavLink>
 	        <NavLink activeClassName="selected" className="nav-link" exact to="/cart">
-	          cart
+	          Cart
 	        </NavLink>
 	      </nav>
 			</div>
