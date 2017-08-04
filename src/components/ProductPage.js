@@ -2,6 +2,8 @@ import React, {Component} from "react";
 import "../styles/ProductPage.css";
 import image from "../imageplaceholder.jpg";
 
+import {NavLink} from 'react-router-dom';
+
 class ProductPage extends Component {
 	constructor(props) {
 		super(props)
@@ -23,6 +25,13 @@ class ProductPage extends Component {
 										<span className="productTitle">{magicItems[`${match.prodnum}`].name}</span>
 										<span className="productDescriptionPreview">
 											{magicItems[`${match.prodnum}`].description}
+										</span>
+										<span>
+											<nav>
+								        <NavLink  className="nav-link" exact to="/cart">
+								          Add to Cart
+								        </NavLink>
+								      </nav>
 										</span>
 									</div>
 							</div>
