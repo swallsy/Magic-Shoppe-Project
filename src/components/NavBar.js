@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import "../styles/Header.css";
+import "../styles/NavBar.css";
 
 import {NavLink} from 'react-router-dom';
 

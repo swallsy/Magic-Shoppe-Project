@@ -10,13 +10,6 @@
 
 }
 
-.navbar-nav .nav-link {
-  font-weight: bold;
-  text-transform: uppercase;
-  color: black;
-  margin-bottom: 15px;
-}
-
 .navbar-brand {
 background-image: url("http://game-icons.net/icons/lorc/originals/svg/flaming-claw.svg");
 height: 50px;
@@ -33,12 +26,6 @@ margin-top: 5%;
   z-index: 10;
 }
 
-
-.links {
-  color: black;
-  text-align: center;
-  text-transform: uppercase;
-}
 
 #links_container {
   position: absolute;

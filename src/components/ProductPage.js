@@ -2,8 +2,6 @@ import React, {Component} from "react";
 import "../styles/ProductPage.css";
 import image from "../imageplaceholder.jpg";
 
-import magicitems from '../magicitems.js'
-
 class ProductPage extends Component {
 	constructor(props) {
 		super(props)
@@ -17,18 +15,16 @@ class ProductPage extends Component {
 		fetch("https://guarded-retreat-23297.herokuapp.com/products").then(response => response.json()).then(magicItems => {
 			let match = this.props.match.params;
 			this.setState({
-				pageCard: <div className="pageContainer">
-						<div className="productContainer">
-							<div className="imageAndDescContainer">
-
-								<img src={magicItems[`${match.prodnum}`].image} className="productImage" />
-
-								<div className="productDescriptionGroup">
-									<span className="productTitle">{magicItems[`${match.prodnum}`].name}</span>
-									<span className="productDescriptionPreview">
-										{magicItems[`${match.prodnum}`].description}
-									</span>
-								</div>
+				pageCard: <div className="container pageContainer">
+						<div className="row productContainer">
+							<div className="imageAndDescContainer col-md-12">
+								<img src={magicItems[`${match.prodnum}`].image} className="productImage col-md-5" />
+									<div className="productDescriptionGroup col-md-7">
+										<span className="productTitle">{magicItems[`${match.prodnum}`].name}</span>
+										<span className="productDescriptionPreview">
+											{magicItems[`${match.prodnum}`].description}
+										</span>
+									</div>
 							</div>
 						</div>
 						<div className="revsDescContainer">
