@@ -33,6 +33,16 @@ class ProductPage extends Component {
 											{magicItem.description}
 										</span>
 									</div>
+									<div>
+										<nav>
+											<NavLink
+		                    activeClassName="selected"
+		                    className="navlink btn view-item "
+		                    to='#'>
+		                    Add to cart.
+		                  </NavLink>
+										</nav>
+									</div>
 								</div>
 							</div>
 							<div className="revsDescContainer">
