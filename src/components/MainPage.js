@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import "../styles/MainPage.css";
 
+import {NavLink} from 'react-router-dom';
+
  class MainPage extends Component   {
    constructor(props) {
          super(props)
@@ -24,6 +26,7 @@ import "../styles/MainPage.css";
                       <h4 className="card-title item-name">{product.name}</h4><span>$</span><span className="price">{product.price}</span>
                       <br/>
                       <p className="card-text description">{product.description}</p>
+											<NavLink activeClassName="selected" className="navlink" to={`product/${product.id}`}>REAL CLICK HERE</NavLink>
                       <a href="#" className="btn view-item">view item</a>
                     </div>
                   </div>
