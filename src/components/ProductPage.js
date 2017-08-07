@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import "../styles/ProductPage.css";
 import image from "../imageplaceholder.jpg";
 
-import {NavLink} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 class ProductPage extends Component {
 	constructor(props) {
@@ -12,11 +12,12 @@ class ProductPage extends Component {
 			pageCard: 'ERROR'
 		}
 	}
-
+	cartFunction() {
+		console.log(this.state.pageCard)
+	}
 	componentDidMount() {
 		fetch("https://guarded-retreat-23297.herokuapp.com/products").then(response => response.json()).then(magicItems => {
 		magicItems.map(magicItem => {
-			console.log("here")
 			let prodnum = parseInt(this.props.match.params.prodnum);
 			console.log(prodnum);
 			if (prodnum === magicItem.id) {
@@ -31,7 +32,6 @@ class ProductPage extends Component {
 									<div className="productDescriptionGroup col-md-7">
 										<h2 className="productTitle">{magicItem.name}</h2>
 										<h3 className="price">{magicItem.price}</h3>
-
 											<NavLink
 		                    activeClassName="selected"
 		                    className="navlink btn view-item "
@@ -40,6 +40,9 @@ class ProductPage extends Component {
 		                  </NavLink>
 
 								</div>
+								<Link className="navlink btn view-item" to={`/cart/${magicItem.id}`}>
+									Add to Cart
+								</Link>
 							</div>
 						</div>
 							<div className="revsDescContainer">

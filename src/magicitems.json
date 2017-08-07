@@ -1,0 +1,181 @@
+[{
+		"id": 4,
+		"name": "Amortentia",
+		"price": "100",
+		"category": "Potions",
+		"description": "Amortentia is a love potion that does not create actual love, but gives the drinker a powerful obsession and infatuation with the giver of the potion. It is usually either forced upon someone or covertly given. ",
+		"image": "https://img1.etsystatic.com/037/1/9966796/il_340x270.653652545_fdoa.jpg",
+		"createdAt": "2017-08-02T14:24:38.645Z",
+		"updatedAt": "2017-08-02T14:24:38.645Z"
+	},
+	{
+		"id": 5,
+		"name": "The One Ring",
+		"price": "1000000000",
+		"category": "Jewelry",
+		"description": "The One Ring gives you the power to rule them all. ",
+		"image": "https://www.myprecious.us/images/fullsize/14k-one-ring-closeup-white-bg.jpg",
+		"createdAt": "2017-08-02T14:24:38.645Z",
+		"updatedAt": "2017-08-02T14:24:38.645Z"
+	},
+	{
+		"id": 8,
+		"name": "Confusing Concoction",
+		"price": "200",
+		"category": "Nutrition",
+		"description": "Causes the drinker to become confused and distracted and sick.",
+		"image": "https://img1.etsystatic.com/126/0/7130566/il_570xN.1050693971_5jij.jpg",
+		"createdAt": "2017-08-02T14:24:38.645Z",
+		"updatedAt": "2017-08-02T14:24:38.645Z"
+	},
+	{
+		"id": 3,
+		"name": "Magic Wand",
+		"price": "800",
+		"category": "Magic Aids",
+		"description": "Arguably the most sought after Deathly Hallow, a wand more powerful than any other in the wizarding world.",
+		"image": "http://www.ebayhost.net/MY4/201605/75896_a.jpg",
+		"createdAt": "2017-08-02T14:24:38.645Z",
+		"updatedAt": "2017-08-02T14:24:38.645Z"
+	},
+	{
+		"id": 9,
+		"name": "Monkey's Paw",
+		"price": "800",
+		"category": "Cursed",
+		"description": "The Monkey Paw grants you three wishes. But be careful what you wish for!",
+		"image": "http://www.indiewire.com/wp-content/uploads/2013/08/monkeys-paw.jpg",
+		"createdAt": "2017-08-02T14:24:38.645Z",
+		"updatedAt": "2017-08-02T14:24:38.645Z"
+	},
+	{
+		"id": 7,
+		"name": "Polyjuice Potion",
+		"price": "500",
+		"category": "Potions",
+		"description": "The Polyjuice Potion allows the drinker to assume the appearance of someone else[4] for an hour or more depending on the quantity. The potion only causes a physical transformation of the drinker, but clothing and voice is not affected.",
+		"image": "http://img09.deviantart.net/688e/i/2012/236/7/4/polyjuice_potion_by_spoon333-d5c8pq5.jpg",
+		"createdAt": "2017-08-02T14:24:38.645Z",
+		"updatedAt": "2017-08-02T14:24:38.645Z"
+	},
+	{
+		"id": 11,
+		"name": "Felix Felicis",
+		"price": "500",
+		"category": "Potions",
+		"description": "Felix Felicis, more commonly known as Liquid Luck, grants whoever drinks it unusually good luck. The time span of this luck depends on the amount imbibed. Liquid Luck is one of the hardest potions to make",
+		"image": "http://img07.deviantart.net/ce3d/i/2012/143/0/c/felix_felicis_by_oo_shaketramp_oo-d50uqzs.jpg",
+		"createdAt": "2017-08-04T01:24:03.296Z",
+		"updatedAt": "2017-08-04T01:24:03.296Z"
+	},
+	{
+		"id": 12,
+		"name": "Dragonglass",
+		"price": "200",
+		"category": "Weapon",
+		"description": "A shard of Dragonglass - the only thing that will keep the Whitewalkers at Bay. WINTER IS COMING!",
+		"image": "http://nerdist.com/wp-content/uploads/2016/04/obscidian.jpg",
+		"createdAt": "2017-08-04T02:04:16.073Z",
+		"updatedAt": "2017-08-04T02:04:16.073Z"
+	},
+	{
+		"id": 13,
+		"name": "Dragon Egg",
+		"price": "500",
+		"category": "Nutrition",
+		"description": "Dragon eggs are great treats for your dog. One of these and they'll be blowing fire in no time. Don't worry, they aren't fertile.",
+		"image": "http://i.imgur.com/Qxf08Yr.jpg",
+		"createdAt": "2017-08-04T02:05:47.107Z",
+		"updatedAt": "2017-08-04T02:05:47.107Z"
+	},
+	{
+		"id": 14,
+		"name": "Spotless Mind Potion",
+		"price": "5000",
+		"category": "Potions",
+		"description": "Allows the user to forget bad memories. This lasts permanently so be careful!",
+		"image": "http://www.thegreenhead.com/imgs/magic-potion-lamp-1.jpg",
+		"createdAt": "2017-08-04T02:05:47.107Z",
+		"updatedAt": "2017-08-04T02:05:47.107Z"
+	},
+	{
+		"id": 15,
+		"name": "Draught of Peace",
+		"price": "300",
+		"category": "Potions",
+		"description": "The Draught of Peace provides personal comfort, calms anxiety and soothes agitation.",
+		"image": "https://s-media-cache-ak0.pinimg.com/736x/86/30/66/8630661a67a3af4020b1672e5140daee--color-change-harry-potter.jpg",
+		"createdAt": "2017-08-04T02:06:25.617Z",
+		"updatedAt": "2017-08-04T02:06:25.617Z"
+	},
+	{
+		"id": 16,
+		"name": "Weirwood Sapling",
+		"price": "100",
+		"category": "Plants",
+		"description": "Plant this tree to help replenish the children of the forest! Westeros needs you.",
+		"image": "https://s-media-cache-ak0.pinimg.com/736x/59/56/6d/59566d35e8ce7db22faa19a401b1c2e2--bonsai-plants-bonsai-art.jpg",
+		"createdAt": "2017-08-04T02:08:03.305Z",
+		"updatedAt": "2017-08-04T02:08:03.305Z"
+	},
+	{
+		"id": 17,
+		"name": "Eat Me Cake",
+		"price": "300",
+		"category": "Nutrition",
+		"description": "Eat this cake and instantly grow to be a giant! It last for 1 hour if you're lucky (or unlucky depending how you look at it).",
+		"image": "http://farm3.static.flickr.com/2571/3894539537_6b7e0353bb.jpg",
+		"createdAt": "2017-08-04T02:08:03.305Z",
+		"updatedAt": "2017-08-04T02:08:03.305Z"
+	},
+	{
+		"id": 18,
+		"name": "Hoppin' Shoes",
+		"price": "100",
+		"category": "Transportation",
+		"description": "Gives you the ability to jump as high as you want.",
+		"image": "https://images.rapgenius.com/56188d6f5ede2585c9cd18ef9236b3e7.620x413x1.jpg",
+		"createdAt": "2017-08-04T02:08:42.972Z",
+		"updatedAt": "2017-08-04T02:08:42.972Z"
+	},
+	{
+		"id": 19,
+		"name": "Baked Beans",
+		"price": "2",
+		"category": "Food",
+		"description": "Because sometimes you just want beans - the non-magic ones, ya know?",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/0/0c/A_can_of_beans.jpg",
+		"createdAt": "2017-08-04T02:09:11.968Z",
+		"updatedAt": "2017-08-04T02:09:11.968Z"
+	},
+	{
+		"id": 20,
+		"name": "Magic: The Gathering Booster Pack",
+		"price": "50",
+		"category": "Games",
+		"description": "Includes 3 Revised Booster Packs, 1 Antiquities Booster Pack, 1 Legends Booster Pack, and 1 Arabian Booster Pack.",
+		"image": "http://s3.gatheringmagic.com/uploads/2010/02/booster_giveway.jpg",
+		"createdAt": "2017-08-04T02:10:14.189Z",
+		"updatedAt": "2017-08-04T02:10:14.189Z"
+	},
+	{
+		"id": 6,
+		"name": "Flying Broomstick",
+		"price": "1000",
+		"category": "Transportation",
+		"description": "Brooms are just what they sound like: magical brooms that allow the witch or wizard to fly. This one is great for beginners.",
+		"image": "https://i.ytimg.com/vi/MUZb0INFJ5c/hqdefault.jpg",
+		"createdAt": "2017-08-02T14:24:38.645Z",
+		"updatedAt": "2017-08-02T14:24:38.645Z"
+	},
+	{
+		"id": 10,
+		"name": "Haunted Typewriter",
+		"price": "2000",
+		"category": "Cursed",
+		"description": "A typewriter that writes best-selling murder mysteries, but eventually makes the murders happen in real life.",
+		"image": "https://i.ytimg.com/vi/oj-LThihB7s/maxresdefault.jpg",
+		"createdAt": "2017-08-02T14:48:35.550Z",
+		"updatedAt": "2017-08-02T14:48:35.550Z"
+	}
+]

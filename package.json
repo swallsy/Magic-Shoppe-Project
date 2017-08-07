@@ -5,8 +5,11 @@
   "dependencies": {
     "ansi-styles": "^3.2.0",
     "external-editor": "^2.0.4",
+    "fs": "0.0.1-security",
     "is-promise": "^2.1.0",
+    "jsonfile": "^3.0.1",
     "mimic-fn": "^1.1.0",
+    "mongoose": "^4.11.5",
     "p-map": "^1.1.1",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
