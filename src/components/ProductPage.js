@@ -23,28 +23,25 @@ class ProductPage extends Component {
 				console.log("match found");
 				this.setState(
 					{pageCard:
-					<div className="pageContainer">
-							<div className="productContainer" key={magicItem.id}>
-								<div className="imageAndDescContainer">
-									<img src={magicItem.image} className="productImage" />
-									<div className="productDescriptionGroup">
-										<span className="productTitle">{magicItem.name}</span>
-										<span className="productDescriptionPreview">
-											{magicItem.description}
-										</span>
-									</div>
-									<div>
-										<nav>
+					<div className="pageContainer container">
+
+							<div className="row productContainer" key={magicItem.id}>
+								<div className="imageAndDescContainer col-md-12">
+									<img src={magicItem.image} className="productImage col-md-5" />
+									<div className="productDescriptionGroup col-md-7">
+										<h2 className="productTitle">{magicItem.name}</h2>
+										<h3 className="price">{magicItem.price}</h3>
+
 											<NavLink
 		                    activeClassName="selected"
 		                    className="navlink btn view-item "
 		                    to='#'>
-		                    Add to cart.
+		                    add to cart
 		                  </NavLink>
-										</nav>
-									</div>
+
 								</div>
 							</div>
+						</div>
 							<div className="revsDescContainer">
 								<ul className="nav nav-tabs">
 									<li className="active nav-item tab">

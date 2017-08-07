@@ -7,3 +7,12 @@
   padding-left: 10px;
   padding-right: 10px;
 }
+
+nav {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
