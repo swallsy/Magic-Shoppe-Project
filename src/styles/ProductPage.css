@@ -1,25 +1,22 @@
 
-.imageAndDescContainer {
-  height: 1000px;
-}
-
 .productImage {
-  border: 1px solid Gray;
   margin-top: 35px;
   width: 35%;
   height: 35%;
 }
 
 .productDescriptionGroup {
-  display: flex;
-  flex-direction: column;
   margin-top: 35px;
 }
 
 .productTitle {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
-  text-align: center;
+  text-align: left;
+}
+
+.imageAndDescContainer .price {
+  font-size: 24px;
 }
 
 .productDescriptionPreview {
@@ -27,8 +24,6 @@
 }
 
 .revsDescContainer {
-  background-color: LightGray;
-  border: 1px solid Blue;
   border-radius: 10px;
   margin-top: 15px;
   margin-left: auto;
