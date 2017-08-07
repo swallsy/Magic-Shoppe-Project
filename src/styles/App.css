@@ -3,3 +3,15 @@ body {
   padding: 120px 0px 0px 0px;
   width: 100%;
 }
+
+.btn {
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #7F9301;
+  border: none;
+  color: white;
+}
