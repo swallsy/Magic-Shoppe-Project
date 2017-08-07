@@ -113,17 +113,7 @@ h1 span {
   background-color: white;
 }
 
-
 .view-item {
-  background-color: black;
-  border: none;
   bottom: 20px;
   position: absolute;
-  color: white;
-}
-
-.view-item:hover {
-  background-color: #7F9301;
-  border: none;
-  color: white;
 }

@@ -10,7 +10,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 // import components
 
 import MainPage from "./components/MainPage.js";
-import ProductPage from "./components/ProductPage.js";
+import ProductPage from "./components/ProductPage/ProductPage.js";
 import ShoppingCart from "./components/ShoppingCart.js";
 import Receipt from "./components/Receipt.js";
 import BaseLayout from "./base_layout.js"
