@@ -21,6 +21,7 @@ ReactDOM.render (
       <Switch>
 			 	<Route path="/product/:prodnum" component={ProductPage} />
         <Route path="/product" component={MainPage} />
+				<Route path="/cart/:prodnum" component={ShoppingCart} />
         <Route path="/cart" component={ShoppingCart} />
         <Route path="/receipt" component={Receipt} />
 				<Route path="/" component={MainPage} />
