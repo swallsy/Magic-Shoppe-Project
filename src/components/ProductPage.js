@@ -32,13 +32,6 @@ class ProductPage extends Component {
 									<div className="productDescriptionGroup col-md-7">
 										<h2 className="productTitle">{magicItem.name}</h2>
 										<h3 className="price">{magicItem.price}</h3>
-											<NavLink
-		                    activeClassName="selected"
-		                    className="navlink btn view-item "
-		                    to='#'>
-		                    add to cart
-		                  </NavLink>
-
 								</div>
 								<Link className="navlink btn view-item" to={`/cart/${magicItem.id}`}>
 									Add to Cart
