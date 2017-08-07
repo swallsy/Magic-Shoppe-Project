@@ -20,10 +20,12 @@ export default class Reviews extends Component {
 					console.log("match found");
           this.setState(
             {reviews:
-              <div className="review-item">
-                  <p>{review.name}</p>
+              <div className="row">
+                <div className="review-item col-md-11">
+                  <p>Reviewer: {review.name}</p>
                   <p>{review.content}</p>
                   <p>{review.rating} out of 10</p>
+                </div>
               </div>
             })
           }
@@ -33,13 +35,9 @@ export default class Reviews extends Component {
 
   render() {
     return (
-      <div className="row">
-        <div className="revsDescContainer col-md-12">
-          <div id="reviews">
-            <h3>Reviews</h3>
-            {this.state.reviews}
-          </div>
-        </div>
+      <div className="revsDescContainer container">
+          <h2 id="review-title">Reviews</h2>
+          {this.state.reviews}
       </div>
     )
   }
