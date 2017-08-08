@@ -10,13 +10,13 @@ export default class ProductInfo extends Component {
 		}
 	}
 
-	componentDidMount() {
+	componentWillMount() {
 		fetch("https://guarded-retreat-23297.herokuapp.com/products")
 			.then(response => response.json())
 			.then(magicItems => {
 			magicItems.map(magicItem => {
 				let prodnum = parseInt(this.props.prodnum);
-				console.log(prodnum);
+				console.log("the product number is, ", prodnum);
 				if (prodnum === magicItem.id) {
 					console.log("match found");
 					this.setState(
@@ -25,7 +25,7 @@ export default class ProductInfo extends Component {
 									<img src={magicItem.image} className="productImage col-md-4" />
 									<div className="productDescriptionGroup col-md-8">
 										<h2 className="productTitle">{magicItem.name}</h2><span>${magicItem.price}</span>
-										<p>Description: {magicItem.description}</p>
+										<p>{magicItem.description}</p>
 										<div className="select-container">
   										<select>
 											  <option value="1">1</option>

@@ -8,34 +8,36 @@ export default class Reviews extends Component {
 		}
 	}
 
-  componentDidMount() {
-    console.log(this.props.prodnum);
+  componentWillMount() {
+    // console.log(this.props.prodnum);
     fetch("https://guarded-retreat-23297.herokuapp.com/reviews")
       .then(response => response.json())
       .then(reviews => {
-      reviews.map(review => {
+				let reviewsForItems = reviews.map(review => {
         let prodnum = parseInt(this.props.prodnum);
-				console.log(prodnum);
+				// console.log(prodnum);
 				if (prodnum === review.productID) {
 					console.log("match found");
-          this.setState(
-            {reviews:
+					return (
               <div className="row">
-                <div className="review-item col-md-11">
-                  <p>Reviewer: {review.name}</p>
-                  <p>{review.content}</p>
-                  <p>{review.rating} out of 10</p>
+                <div className="col-md-12">
+									<div className="review-item">
+                  	<p>Reviewer: {review.name}</p>
+                  	<p>{review.content}</p>
+                  	<p>{review.rating} out of 10</p>
+									</div>
                 </div>
               </div>
-            })
-          }
-        })
+					)
+        }
       })
+		 this.setState({reviews: reviewsForItems})
+    })
   }
 
   render() {
     return (
-      <div className="revsDescContainer container">
+      <div className="revsDescContainer">
           <h2 id="review-title">Reviews</h2>
           {this.state.reviews}
       </div>
