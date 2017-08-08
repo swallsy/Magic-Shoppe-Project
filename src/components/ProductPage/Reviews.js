@@ -8,14 +8,13 @@ export default class Reviews extends Component {
 		}
 	}
 
-  componentWillMount() {
+  componentDidMount() {
     // console.log(this.props.prodnum);
     fetch("https://guarded-retreat-23297.herokuapp.com/reviews")
       .then(response => response.json())
       .then(reviews => {
-				let reviewsForItems = reviews.map(review => {
+				let reviewsForItem = reviews.map(review => {
         let prodnum = parseInt(this.props.prodnum);
-				// console.log(prodnum);
 				if (prodnum === review.productID) {
 					console.log("match found");
 					return (
@@ -31,7 +30,7 @@ export default class Reviews extends Component {
 					)
         }
       })
-		 this.setState({reviews: reviewsForItems})
+		 this.setState({reviews: reviewsForItem})
     })
   }
 

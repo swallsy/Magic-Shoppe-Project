@@ -10,7 +10,7 @@ export default class ProductInfo extends Component {
 		}
 	}
 
-	componentWillMount() {
+	componentDidMount() {
 		fetch("https://guarded-retreat-23297.herokuapp.com/products")
 			.then(response => response.json())
 			.then(magicItems => {
@@ -41,10 +41,10 @@ export default class ProductInfo extends Component {
 								</div>
 							</div>
 						})
-				}
+				 }
 			})
 		})
-}
+  }
 	render() {
 		return (
 			<div className="productContainer col-md-12">
