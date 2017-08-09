@@ -12,9 +12,6 @@ class NavBar extends Component {
 	        <NavLink activeClassName="selected" className="nav-link" exact to="/">
 	          Home
 	        </NavLink>
-	        <NavLink activeClassName="selected" className="nav-link" exact to="/cart">
-	          cart
-	        </NavLink>
 	      </nav>
 			</div>
     );
