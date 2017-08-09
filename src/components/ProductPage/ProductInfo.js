@@ -1,6 +1,6 @@
 import React, {Component} from "react";
-
 import {Link} from 'react-router-dom';
+
 
 export default class ProductInfo extends Component {
 	constructor(props) {
@@ -27,13 +27,6 @@ export default class ProductInfo extends Component {
 										<h2 className="productTitle">{magicItem.name}</h2><span>${magicItem.price}</span>
 										<p>{magicItem.description}</p>
 										<div className="select-container">
-  										<select>
-											  <option value="1">1</option>
-											  <option value="2">2</option>
-											  <option value="3">3</option>
-											  <option value="4">4</option>
-												<option value="5">5</option>
-  										</select>
 											<Link className="navlink btn add-to-cart" to={`/cart/${magicItem.id}`}>
 												Add to Cart
 											</Link>

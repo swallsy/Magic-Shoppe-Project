@@ -5,11 +5,9 @@
   position: relative;
 }
 
-
 .item-row {
-  padding-bottom: 20px;
-  padding-top: 20px;
-  border-bottom: black solid 1px;
+  padding-bottom: 300px;
+  padding-top: 80px;
 }
 
 .total {
@@ -20,21 +18,21 @@
 .right-info {
   display: flex;
   flex-direction: column;
-  float: right;
   margin-top: 20px;
-  top: 20px;
-  text-align: right;
 }
 
 .remove-item {
+  background-color: white;
   color: black;
+  border: solid 1px black;
   padding-right: 0;
-  text-decoration: underline;
+  padding-left: 0;
+  width: 120px;
+  text-align: center;
 }
 
 .remove-item:hover {
   color: #7F9301;
-  text-decoration: underline;
 }
 
 .left-info {
@@ -42,10 +40,11 @@
 }
 
 
-.buy-items {
+.buy-item {
   background-color: black;
   border: none;
   bottom: 20px;
+  width: 120px;
   position: absolute;
   color: white;
 }
@@ -54,4 +53,35 @@
   background-color: #7F9301;
   border: none;
   color: white;
+}
+
+#congrats-section {
+  margin-top: 40px;
+  text-align: center;
+}
+
+#summary-purchase {
+  background-color: #F8F8FF;
+  width: 30%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 120px;
+}
+
+#summary-title {
+  margin-top: 60px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#prices {
+  padding-left: 30px;
+}
+
+#no-items-message {
+  text-align: center;
+  margin-top: 60px;
+  padding-bottom: 450px;
 }

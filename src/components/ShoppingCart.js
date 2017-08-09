@@ -9,10 +9,39 @@ class ShoppingCart extends Component {
         super(props)
         this.state = {
             cartItems: [],
-						cardCards: ''
+						cartCards: ''
         }
+       this.handleClick = this.handleClick.bind(this);
+       this.handleBuy = this.handleBuy.bind(this);
     }
 
+
+  handleClick() {
+    this.setState({
+      cartCards: <h2 id="no-items-message">There are no items in your cart :( </h2>
+    });
+  }
+
+  handleBuy(a, b, c) {
+    let price = b * c;
+    this.setState({
+      cartCards: <div>
+                  <div id="congrats-section">
+                    <h2>Congrats on your purchase!</h2>
+                    <h4>Your {a} should arrive within 7 business days.</h4>
+                  </div>
+                  <div id="summary-purchase">
+                    <h4 id="summary-title">Summary of Purchase</h4>
+                    <div id="prices">
+                      <p id="center">{a}</p>
+                      <p><span>Quantity     .........................     </span> <span>{c}</span></p>
+                      <p><span>Price          ..............................     </span> <span>${b}</span></p>
+                      <p><span>Total          ..............................     </span> <span>${price}</span></p>
+                    </div>
+                  </div>
+                </div>
+    });
+  }
 
 	componentDidMount() {
 		fetch("https://guarded-retreat-23297.herokuapp.com/products").then(response => response.json()).then(magicItems => {
@@ -32,10 +61,8 @@ class ShoppingCart extends Component {
 					let cartCards =
 						oldCart.map(product => {
 							return(
-								<div key={product.id} className="row">
-									<div className="col-md-12 item-row">
+								<div key={product.id} className="row item-row">
 										<img src={product.image} className="col-md-3 item-image photo"/>
-										<div className="col-md-9 item_info">
 											<div className="left-info col-md-7">
 												<h4 className="item-name">{product.name}</h4>
 												<p>${product.price}</p>
@@ -44,10 +71,9 @@ class ShoppingCart extends Component {
 											<div className="right-info col-md-2">
 												<p className="quantity">Quantity: {product.quantity}</p>
 												<p className="total">Total: $ {product.price * product.quantity}</p>
-												<a href="#" className="btn remove-item">remove item</a>
+												<button onClick={this.handleClick} className="btn remove-item">remove item</button>
+                        <button onClick={() => this.handleBuy(product.name, product.price, product.quantity)} className="btn buy-item">buy item</button>
 											</div>
-										</div>
-									</div>
 								</div>
 							)
 						})
@@ -60,11 +86,12 @@ class ShoppingCart extends Component {
 	}
 	render(){
 		return (
-			<div>
+			<div className="container">
 				{this.state.cartCards}
 			</div>
 		)
 	}
+
 }
 
 
