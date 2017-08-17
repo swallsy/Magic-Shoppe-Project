@@ -1,0 +1,87 @@
+.photo {
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+  position: relative;
+}
+
+.item-row {
+  padding-bottom: 300px;
+  padding-top: 80px;
+}
+
+.total {
+  float: right;
+}
+
+
+.right-info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.remove-item {
+  background-color: white;
+  color: black;
+  border: solid 1px black;
+  padding-right: 0;
+  padding-left: 0;
+  width: 120px;
+  text-align: center;
+}
+
+.remove-item:hover {
+  color: #7F9301;
+}
+
+.left-info {
+  width: 70%;
+}
+
+
+.buy-item {
+  background-color: black;
+  border: none;
+  bottom: 20px;
+  width: 120px;
+  position: absolute;
+  color: white;
+}
+
+.buy-items:hover {
+  background-color: #7F9301;
+  border: none;
+  color: white;
+}
+
+#congrats-section {
+  margin-top: 40px;
+  text-align: center;
+}
+
+#summary-purchase {
+  background-color: #F8F8FF;
+  width: 30%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 120px;
+}
+
+#summary-title {
+  margin-top: 60px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#prices {
+  padding-left: 30px;
+}
+
+#no-items-message {
+  text-align: center;
+  margin-top: 60px;
+  padding-bottom: 450px;
+}

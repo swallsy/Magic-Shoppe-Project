@@ -3,14 +3,37 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "ansi-styles": "^3.2.0",
+    "external-editor": "^2.0.4",
+    "is-promise": "^2.1.0",
+    "mimic-fn": "^1.1.0",
+    "mongoose": "^4.11.5",
+    "p-map": "^1.1.1",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-scripts": "1.0.10"
+    "react-router": "^4.1.2",
+    "react-router-dom": "^4.1.2",
+    "react-scripts": "1.0.10",
+    "rx-lite-aggregates": "^4.0.8",
+    "superagent": "^3.5.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "description": "Your one and only magic superstore! Enchanted items, cursed items, potions and broomsticks! You name it, we've got it and if we don't, then checkout our Forgetfulness Potion and buy something else.",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TIY-Store-Project/Magic-Shoppe-Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TIY-Store-Project/Magic-Shoppe-Project/issues"
+  },
+  "homepage": "https://github.com/TIY-Store-Project/Magic-Shoppe-Project#readme"
 }
