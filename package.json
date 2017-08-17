@@ -21,11 +21,15 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "description": "Your one and only magic superstore! Enchanted items, cursed items, potions and broomsticks! You name it, we've got it and if we don't, then checkout our Forgetfulness Potion and buy something else.",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^1.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TIY-Store-Project/Magic-Shoppe-Project.git"
@@ -35,5 +39,5 @@
   "bugs": {
     "url": "https://github.com/TIY-Store-Project/Magic-Shoppe-Project/issues"
   },
-  "homepage": "https://github.com/TIY-Store-Project/Magic-Shoppe-Project#readme"
+  "homepage": "https://swallsy.github.io/Magic-Shoppe-Project"
 }
