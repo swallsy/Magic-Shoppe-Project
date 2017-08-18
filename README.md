@@ -9,3 +9,5 @@ Built using React and a Sequelize database posted remotely on Heroku.
 *Zack Clark
 *Chad Keller
 *Michael Prechter
+
+View Here: https://swallsy.github.io/Magic-Shoppe-Project/
