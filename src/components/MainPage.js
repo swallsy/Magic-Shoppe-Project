@@ -67,8 +67,7 @@ class MainPage extends Component {
           </h1>
           <div id="bgvid">
             <video loop muted autoPlay className="fullscreen-bg__video">
-              <source src="../matcha/Mp4/Matcha.mp4" type="video/mp4" />
-              <source src="matcha/Matcha.jpg" type="jpg" />
+              <source src="matcha/Mp4/Matcha.mp4" type="video/mp4" />
              </video>
           </div>
         </div>
