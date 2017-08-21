@@ -22,7 +22,6 @@ class MainPage extends Component {
             <div key={product.id} className="col-md-4">
               <div className="card">
                 <img
-                  alt="card"
                   src={product.image}
                   className="card-img-top display-block photo"
                 />

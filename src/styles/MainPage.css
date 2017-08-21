@@ -95,6 +95,7 @@ h1 span {
   width: 100%;
   height: 250px;
   position: relative;
+  background-color: gray;
 }
 
 #main-wrapper {
