@@ -34,9 +34,9 @@ class ShoppingCart extends Component {
                     <h4 id="summary-title">Summary of Purchase</h4>
                     <div id="prices">
                       <p id="center">{a}</p>
-                      <p><span>Quantity     .........................     </span> <span>{c}</span></p>
-                      <p><span>Price          ..............................     </span> <span>${b}</span></p>
-                      <p><span>Total          ..............................     </span> <span>${price}</span></p>
+                      <p><span>Quantity </span> <span>{c}</span></p>
+                      <p><span>Price </span> <span>${b}</span></p>
+                      <p><span>Total </span> <span>${price}</span></p>
                     </div>
                   </div>
                 </div>

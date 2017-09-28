@@ -29,6 +29,7 @@
   padding-left: 0;
   width: 120px;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .remove-item:hover {
@@ -39,17 +40,15 @@
   width: 70%;
 }
 
-
 .buy-item {
   background-color: black;
   border: none;
   bottom: 20px;
   width: 120px;
-  position: absolute;
   color: white;
 }
 
-.buy-items:hover {
+.buy-item:hover {
   background-color: #7F9301;
   border: none;
   color: white;
@@ -85,3 +84,12 @@
   margin-top: 60px;
   padding-bottom: 450px;
 }
+
+/*@media only screen and (max-device-width : 768px)  {
+  .remove-item {
+    margin-bottom: 10px;
+  }
+  .buy-item btn {
+    display: static;
+  }
+}*/
