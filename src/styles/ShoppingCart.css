@@ -61,11 +61,12 @@
 
 #summary-purchase {
   background-color: #F8F8FF;
-  width: 30%;
+  width: 60%;
   height: 300px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 120px;
+  text-align: center;
 }
 
 #summary-title {
@@ -85,11 +86,8 @@
   padding-bottom: 450px;
 }
 
-/*@media only screen and (max-device-width : 768px)  {
-  .remove-item {
-    margin-bottom: 10px;
+@media only screen and (max-device-width : 768px)  {
+  #summary-purchase {
+    width: 80%;
   }
-  .buy-item btn {
-    display: static;
-  }
-}*/
+}
